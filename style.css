@@ -1,0 +1,212 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Open Sans' sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+	font-family: 'Montserrat' sans-serif;
+
+}
+
+a , a:hover {
+	text-decoration: none;
+}
+
+/*
+	#28377e
+*/
+
+
+.header {
+	width: 100%;
+	padding: 10px 0px;
+	background: #fff;
+}
+.header .navbar-expand-lg .nav-item .nav-link {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #28377e;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 25px;
+	transition: 1s;
+}
+.header .navbar-expand-lg .nav-item .nav-link:hover ,.header .navbar-expand-lg .nav-item .nav-link:focus {
+	color: #f2622c;
+}
+.slider {
+	width: 100%;
+	padding: 0px ;
+	width: 100%;
+	display: block;
+	background: url("slider.png") center top no-repeat;
+}
+.slider h1 {
+	margin: 185px 450px 0px;
+	color: #fff;
+	line-height: 1.7em;
+	text-align: center;
+}
+.arrow {
+	text-align: center;
+}
+.who-we-are {
+	margin: 0px 0px;
+	line-height: 1.2em;
+}
+.who-we-are .title {
+	margin: 60px 0px;
+}
+
+
+.who-we-are h1 {
+	color: #28377e;
+	margin: 20px 0px;
+}
+.who-we-are p {
+	font-weight: 300;
+	color: #c3c2c2;
+	margin: 20px 0px 0px;
+}
+.who-we-are .tab-img {
+	margin: 0px 0px 0px 100px;
+}
+.what-we-do {
+	width: 100%;
+	padding: 80px 0px;
+	background: url("BG1.png") center top no-repeat;
+	background-size: cover;
+}
+.what-we-do .title {
+	margin: 60px 0px;
+	text-align: center;
+}
+
+.what-we-do .card {
+	border: 0px;
+	border-radius:0px ;
+	text-align: center;
+}
+.what-we-do .card .card-img-overlay {
+	text-align: center;
+}
+.what-we-do .card .card-img-overlay .card-title {
+	position: absolute;
+	top: 50%;
+	right: 15%;
+	width: 70%;
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	color: #fff;
+}
+.what-we-do .card .card-img-overlay .long-arrow {
+	position: absolute;
+	bottom: 20%;
+	left: 45%;
+}
+.our-attorney {
+	width: 100%;
+	padding: 100px 0px 80px;
+	background: url("BG2.png") center top no-repeat;
+	background-size: cover;
+}
+.our-attorney .title {
+	padding: 110px 0px;
+}
+.our-attorney .title h1{
+	color: #fff;
+}
+.our-attorney .title p {
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #929dcf;
+}
+.our-attorney .btn-link {
+	padding: 0px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #f2622c;
+	letter-spacing: 1px;
+}
+.our-attorney .card {
+	border: 0px;
+	border-radius: 0px;
+	margin-bottom: 25px ;
+}
+.our-attorney .card .card-img {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+
+}
+.our-attorney .card .card-title {
+	position: absolute;
+	left: 2%;
+	bottom: 8%;
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	color: #fff;
+
+}
+.Language {
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.Language .title {
+	padding: 0px 0px 80px;
+	color: #28377e;
+	text-align: center;
+}
+.inner-language h4{
+	font-size: 22px;
+	color: #28377e;
+	line-height: 1.3em;
+}
+.inner-language p {
+	font-weight: 300;
+	color: #c3c2c2;
+	margin: 20px 0px 0px;
+}
+.inner-language .btn-link {
+	padding: 0px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #f2622c;
+	letter-spacing: 1px;
+}
+.contact-us {
+	background: #28377e;
+}
+.contact-us h4 {
+	font-size: 22px;
+	color: #fff;
+	line-height: 1.3em;
+}
+.contact-us .title {
+	padding: 0px 0px 80px;
+	color: #28377e;
+	text-align: center;
+}
+.contact-us .form {
+	background: transparent;
+	border: none;
+}
+
+.footer {
+	color: white;
+	background-color: #0c1234;
+}
